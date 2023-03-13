@@ -65,7 +65,12 @@ const AppTable = () => {
     },
   ];
   return (
-    <section className='mb-[40px] block w-full  md:px-4'>
+    <section
+      style={{
+        overflow: "auto",
+      }}
+      className='mb-[40px] block w-full  md:px-4'
+    >
       <table
         style={{
           border: "1px solid #eaecf0",
@@ -97,7 +102,12 @@ const AppTable = () => {
           {data.map((item) => (
             <tr className='text-left'>
               <td>
-                <input type='checkbox' name='select_row' id='select_row' />
+                <input
+                  type='checkbox'
+                  className='p-4'
+                  name='select_row'
+                  id='select_row'
+                />
               </td>
               <td>{item.planType}</td>
               <td>{item.amount}</td>

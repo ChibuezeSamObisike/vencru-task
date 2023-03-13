@@ -12,7 +12,12 @@ const Tab = () => {
         </div>
       </section>
 
-      <div className='flex items-center'>
+      <div
+        style={{
+          overflow: "auto",
+        }}
+        className='flex items-center'
+      >
         {[
           { name: "my_details", text: "My details" },
           { name: "profile", text: "Profile" },

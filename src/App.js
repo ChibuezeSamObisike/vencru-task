@@ -2,6 +2,7 @@ import SideBar from "./components/SideBar";
 import Tab from "./components/Tab";
 import PaymentMethod from "./components/PaymentMethod";
 import AppTable from "./components/AppTable";
+import BillingFlex from "./components/BillingFlex";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <div className='p-8 bg-[#f9fafb] md:ml-[20%] w-full'>
         <Tab />
         <PaymentMethod />
+        <BillingFlex />
         <AppTable />
       </div>
     </div>

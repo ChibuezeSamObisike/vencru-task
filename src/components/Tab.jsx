@@ -34,7 +34,7 @@ const Tab = () => {
             <div className='mt-4'>
               <ul className='w-full overflow-x-auto'>
                 <li
-                  className='bg-white flex last:rounded-r-md first:rounded-l-md justify-center items-center text-sm font-medium text-[#344054] whitespace-nowrap  border-solid border-l-[1px] border-y-[1px] last:border-r-[1px] border-[#d0d5dd]'
+                  className='first:rounded bg-white flex justify-center items-center text-sm font-medium text-[#344054] whitespace-nowrap  border-solid border-l-[1px] border-y-[1px] last:border-r-[1px] border-[#d0d5dd]'
                   key={tab.name}
                 >
                   <button className='px-4 py-2 focus:outline-none focus:bg-[#f9fafb]'>

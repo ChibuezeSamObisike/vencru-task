@@ -36,7 +36,7 @@ const Contact = () => {
             className='pl-2 font-medium w-full  text-[#344054]'
           >
             Send to an alternative email
-            <div className='w-full p-2 whitespace-nowrap border-[1px] rounded border-solid border-[#d0d5dd] bg-white ml-[27px] md:ml-[27px] text-[#667085] text-sm md:w-[100%] md:mt-2'>
+            <div className='w-full p-2 pr-[80px] whitespace-nowrap border-[1px] rounded border-solid border-[#d0d5dd] bg-white ml-[27px] md:ml-[27px] text-[#667085] text-sm md:w-[100%] md:mt-2'>
               billing@untitledui.com
             </div>
           </label>
